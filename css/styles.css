@@ -555,6 +555,7 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 16px;
   min-width: 165px;
   height: 40px;
   border-radius: 4px;
