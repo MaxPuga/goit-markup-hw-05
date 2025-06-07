@@ -718,6 +718,7 @@ ol {
 
 .input-comment {
   padding: 8px 16px;
+  color: rgba(46, 47, 66, 0.4);
   width: 100%;
   height: 120px;
   border-radius: 4px;
@@ -766,8 +767,6 @@ ol {
   letter-spacing: 0.04em;
   color: #8e8f99;
   cursor: pointer;
-  display: flex;
-  align-items: center;
 }
 
 .modal-link {
