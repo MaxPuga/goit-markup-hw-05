@@ -501,9 +501,9 @@
           </ul>
         </div>
         <div class="footer-form">
+          <p class="footer-form-title">Subscribe</p>
           <form class="subscribe-form">
-            <label for="footer-email" class="footer-label">Subscribe</label>
-            <div class="form-row">
+            <label for="footer-email" class="footer-label">
               <input
                 type="email"
                 name="footer-email"
@@ -511,12 +511,12 @@
                 placeholder="E-mail"
                 class="footer-input"
               />
-              <button type="submit" class="footer-btn">
-                Subscribe<svg class="input-icon" width="24" height="20">
-                  <use href="./images/icons.svg#icon-footer-icon"></use>
-                </svg>
-              </button>
-            </div>
+            </label>
+            <button type="submit" class="footer-btn">
+              Subscribe<svg class="input-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-footer-icon"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -530,24 +530,22 @@
           </svg>
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
-
-        <form class="modal-form">
-          <div class="modal-username">
-            <label for="username" class="form-input">Name</label>
+          <div class="modal-info">
+            <label for="user-name" class="form-input">Name</label>
             <div class="input-icon">
               <input
                 type="text"
-                name="username"
-                id="username"
+                name="user-name"
+                id="user-name"
                 class="input-field"
               />
-              <svg class="modal-input-icon" width="18" height="18">
+              <svg class="modal-input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-user"></use>
               </svg>
             </div>
           </div>
 
-          <div class="modal-phone">
+          <div class="modal-info">
             <label for="contact_tel" class="form-input">Phone</label>
             <div class="input-icon">
               <input
@@ -562,7 +560,7 @@
             </div>
           </div>
 
-          <div class="modal-email">
+          <div class="modal-info">
             <label for="user_email" class="form-input">Email</label>
             <div class="input-icon">
               <input
@@ -578,12 +576,12 @@
           </div>
 
           <div class="modal-comment">
-            <label for="user-text" class="form-input">Comment</label>
+            <label for="user-comment" class="form-input">Comment</label>
             <div class="placeholder-text">
               <textarea
                 class="input-comment"
-                name="form-comment"
-                id="user-text"
+                name="user-comment"
+                id="user-comment"
                 rows="5"
                 placeholder="Text input"
               ></textarea>
@@ -593,16 +591,17 @@
           <div class="modal-checkbox">
             <input
               type="checkbox"
-              name="privacy"
-              id="privacy"
+              name="user-privacy"
+              id="user-privacy"
               class="checkbox-mdl visually-hidden"
-              value="on"
+              value="true"
             />
-            <label for="privacy" class="checkbox-label">
+            <label for="user-privacy" class="checkbox-label">
               <span class="custom-checkbox"
                 ><svg class="check-icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-checkbox"></use></svg
-              ></span>
+                  <use href="./images/icons.svg#icon-checkbox"></use>
+                </svg>
+              </span>
               I accept the terms and conditions of the&nbsp;<a
                 href="/"
                 class="modal-link"
@@ -611,7 +610,7 @@
             </label>
           </div>
           <div class="modal-btn">
-            <button class="hero-button" type="submit">Send</button>
+            <button class="modal-button" type="submit">Send</button>
           </div>
         </form>
       </div>
