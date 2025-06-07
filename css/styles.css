@@ -512,6 +512,7 @@ ol {
   width: 264px;
   height: 40px;
   font-size: 12px;
+  letter-spacing: 0.04em;
   line-height: 2;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
@@ -548,14 +549,10 @@ ol {
   color: #ffffff;
 }
 
-.form-row {
-}
-
 .footer-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
   min-width: 165px;
   height: 40px;
   border-radius: 4px;
@@ -572,7 +569,7 @@ ol {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-icon {
+.input-icon-btn {
   margin-left: 16px;
 }
 
